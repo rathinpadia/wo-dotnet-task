@@ -4,10 +4,10 @@ Thanks for taking the time to become a part of our Whistleout Team. The purpose 
 
 # Core Task Details:
 Your task is to create the following:
-A movie search results page to search for movies by title using the omdbapi. Example  http://www.omdbapi.com/?apikey=[yourkey]&s=Avengers. Ensure any criteria used to search movies is in the query string of the movie search results page.
-A movie details page displaying more details about a movie using the omdbapi. Example http://www.omdbapi.com/?apikey=[yourkey]&i=tt4154756
-Mark up the movie search results page with movie carousel structured data for the current displayed movies. Make sure the structured data is in JSON-LD format. More guidelines are here https://developers.google.com/search/docs/data-types/movie#summary
-Mark up the movie details page with movie structured data for the displayed movie details. Make sure the structured data is in JSON-LD format. More guidelines are here https://developers.google.com/search/docs/data-types/movie#movie
+* A movie search results page to search for movies by title using the omdbapi. Example  http://www.omdbapi.com/?apikey=[yourkey]&s=Avengers. Ensure any criteria used to search movies is in the query string of the movie search results page.
+* A movie details page displaying more details about a movie using the omdbapi. Example http://www.omdbapi.com/?apikey=[yourkey]&i=tt4154756
+* Mark up the movie search results page with movie carousel structured data for the current displayed movies. Make sure the structured data is in JSON-LD format. More guidelines are here https://developers.google.com/search/docs/data-types/movie#summary
+* Mark up the movie details page with movie structured data for the displayed movie details. Make sure the structured data is in JSON-LD format. More guidelines are here https://developers.google.com/search/docs/data-types/movie#movie
 
 ## Notes:
 Structured data in JSON-LD should be generated in the html head section. More details about them are available here https://developers.google.com/search/docs/guides/intro-structured-data
@@ -16,8 +16,8 @@ Structured data in JSON-LD should be generated in the html head section. More de
 We have provided a boilerplate code that displays movies from a hard coded set of data. Feel free to use this and build upon it. You are NOT REQUIRED to use this and feel free to start a solution from scratch. Make sure this is done in .NET.
 
 # Bonus Task:
-Add a control to search movies by an year range in addition to the title in search results page. Make sure this is part of the query string as well.
-Implement paging on the movie search results page
+* Add a control to search movies by an year range in addition to the title in search results page. Make sure this is part of the query string as well.
+* Implement paging on the movie search results page
 
 # Super Bonus Task:
 Use a React component in movie details page to implement an autocomplete to quickly navigate to a different movie details. The autocomplete will pull details using the omdb api http://www.omdbapi.com/?apikey=[yourkey]&s=[text]
