@@ -10,7 +10,7 @@ Your task is to create the following:
 * Mark up the movie details page with movie structured data for the displayed movie details. Make sure the structured data is in JSON-LD format. More guidelines are here https://developers.google.com/search/docs/data-types/movie#movie
 
 ## Notes:
-Structured data in JSON-LD should be generated in the html head section. More details about them are available here https://developers.google.com/search/docs/guides/intro-structured-data
+Structured data in JSON-LD should be generated in the html head section. More details about them are available here https://developers.google.com/search/docs/guides/intro-structured-data. You can validate your structured data using the tool https://search.google.com/structured-data/testing-tool
 
 # Getting Started:
 We have provided a boilerplate code that displays movies from a hard coded set of data. Feel free to use this and build upon it. You are NOT REQUIRED to use this and feel free to start a solution from scratch. Make sure this is done in .NET.
@@ -30,4 +30,4 @@ Evaluation is based on clean coding skills, design & problem solving skills and 
 
 # Submission:
 Document the solution with design choices you made and any assumptions in SUBMISSION.md. Also include any instructions on any other setup required to run the solution.
-After you have finished the solution please upload to a public Github repo and share the link with prasanna@whistleout.com
+After you have finished the solution please upload to a public Github repo and share the link with jobsau@whistleout.com
