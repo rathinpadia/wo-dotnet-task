@@ -1,6 +1,6 @@
 Whistleout .NET Engineer Technical Task
 =======================================
-Thanks for taking the time to become a part of our Whistleout Team. The purpose of this task is to assess your technical skills and get an idea on how you approach a problem. We know that you might not have a lot of time to devote to this task so please work on the Core Task Details and the rest of them if you have time .
+The purpose of this task is to assess your technical skills and get an idea on how you approach a problem. We know that you might not have a lot of time to devote to this task so please work on the Core Task Details and the rest of them if you have time.
 
 # Core Task Details:
 Your task is to create the following:
