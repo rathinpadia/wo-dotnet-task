@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Movies.Web.Models.Movies;
+using Movies.Web.Service;
 
 namespace Movies.Web
 {
@@ -23,7 +25,19 @@ namespace Movies.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.Configure<ApplicationSettings>(Configuration.GetSection("ApplicationSettings"));
+            ApplicationSettings applicationSettings = new ApplicationSettings();
+            Configuration.GetSection("ApplicationSettings").Bind(applicationSettings);
+            services.AddSingleton<ApplicationSettings>(applicationSettings);
+
             services.AddControllersWithViews();
+
+            services.AddTransient<IMovies, Movies.Web.Service.Movies>();
+
+            services.AddTransient<IAPIService, Movies.Web.Service.APIService>();
+
+            services.AddTransient<IAPIService, Movies.Web.Service.APIService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

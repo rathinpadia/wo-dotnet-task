@@ -1,1 +1,48 @@
 ﻿@model Movies.Web.Models.Movies.Details
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <article class="card">
+            <header class="title-header">
+                <h3>@Model.Title</h3>
+            </header>
+            <div class="card-block">
+                <div class="img-card">
+                    <img src="@Model.Poster" alt="Movie" class="w-100">
+                </div>
+            </div>
+        </article>
+        <div class="container">
+            <div class="row">
+                <div class="col bg-info text-white">   <label asp-for="@Model.Year"></label></div>
+                <div class="col bg-light text-dark">@Model.Year</div>
+                <div class="w-100"></div>
+                <div class="col bg-info text-white">   <label asp-for="@Model.Genre"></label></div>
+                <div class="col bg-light text-dark">@Model.Genre</div>
+                <div class="w-100"></div>
+                <div class="col bg-info text-white">   <label asp-for="@Model.Country"></label></div>
+                <div class="col bg-light text-dark">@Model.Country</div>
+                <div class="w-100"></div>
+                <div class="col bg-info text-white">   <label asp-for="@Model.Director"></label></div>
+                <div class="col bg-light text-dark">@Model.Director</div>
+                <div class="w-100"></div>
+                <div class="col bg-info text-white">   <label asp-for="@Model.Actors"></label></div>
+                <div class="col bg-light text-dark">@Model.Actors</div>
+                <div class="w-100"></div>
+                <div class="col bg-info text-white">   <label asp-for="@Model.DVD"></label></div>
+                <div class="col bg-light text-dark">@Model.DVD</div>
+                <div class="w-100"></div>
+                <div class="col bg-info text-white">   <label asp-for="@Model.BoxOffice"></label></div>
+                <div class="col bg-light text-dark">@Model.BoxOffice</div>
+                <div class="w-100"></div>
+                <div class="col bg-info text-white">   <label asp-for="@Model.imdbRating"></label></div>
+                <div class="col bg-light text-dark">@Model.imdbRating</div>
+                <div class="w-100"></div>
+                <div class="col bg-info text-white">   <label asp-for="@Model.Language"></label></div>
+                <div class="col bg-light text-dark">@Model.Language</div>
+                <div class="w-100"></div>
+                <div class="col bg-info text-white">   <label asp-for="@Model.imdbVotes"></label></div>
+                <div class="col bg-light text-dark">@Model.imdbVotes</div>
+            </div>
+        </div>
+    </div>
+
+  
